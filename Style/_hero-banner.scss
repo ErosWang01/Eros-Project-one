@@ -1,0 +1,65 @@
+@import "_variables.scss";
+
+.hero-banner__single-banner {
+      position: relative;
+      width: 100%;
+      height: 815px;
+      background-image: url("/Image/banner-image.JPG");
+      background-position: top;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+
+
+    
+      @media only screen and (max-width: 767px) {
+        background-position: center right -100px;
+      }
+    }
+    
+    .hero-banner__content-wrapper {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      
+    
+      @media only screen and (max-width: 767px) {
+        background: rgba(245, 240, 240, 0.5);
+      }
+    }
+    
+    .hero-banner__single-banner {
+      h1 {
+        font-size: 48px;
+        position: absolute;
+        top: 40%;
+        left: 20%;
+      }
+    
+      p {
+        font-size: 21px;
+        position: absolute;
+        top: 48%;
+        left: 20%;
+      }
+    }
+    
+    .hero-banner__btn {
+      padding: 10px 30px;
+      background-color: $button-color;
+      border-radius: 30px;
+      color: #fff;
+      position: absolute;
+      top: 55%;
+      left: 20%;
+    
+      &:hover {
+        background-color: $button-hover-color;
+      }
+    
+      @media only screen and (max-width: 380px) {
+        top: 60%;
+      }
+    }

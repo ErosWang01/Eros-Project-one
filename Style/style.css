@@ -168,7 +168,7 @@ nav a:nth-child(3) {
   position: relative;
   width: 100%;
   height: 815px;
-  background-image: url("/Image/banner-image.JPG");
+  background-image: url("../Image/banner-image.JPG");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -475,6 +475,7 @@ nav a:nth-child(3) {
           flex: 1 1 auto;
   background-color: #f8f9f9;
   height: 330px;
+  max-width: 50%;
 }
 
 .personal-info__wrapper__middle-area img {
@@ -492,6 +493,7 @@ nav a:nth-child(3) {
     width: 90%;
     height: 450px;
     margin: 0 auto;
+    max-width: 100%;
   }
 }
 

@@ -118,6 +118,7 @@
     flex: 1 1 auto;
     background-color: #f8f9f9;
     height: 330px;
+    max-width: 50%;
   
     img {
       width: 100%;
@@ -130,5 +131,6 @@
       width: 90%;
       height: 450px;
       margin: 0 auto;
+      max-width:100%;
     }
   }
